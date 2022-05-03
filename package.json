@@ -1,0 +1,23 @@
+{
+  "name": "portfolioApi",
+  "version": "1.0.0",
+  "description": "hi, I am amr a software engineering , And in this repo i will create an API for my portfolio to provid Blogs, Projects , update section of the UI and resive client massages and more .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/Amr2/portfolioApi.git",
+  "author": "Amr Mahmoud",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
